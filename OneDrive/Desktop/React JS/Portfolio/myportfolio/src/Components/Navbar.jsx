@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
-import { MdMenu } from "react-icons/md";
-import { ImCross } from "react-icons/im";
+
+
+import { MdMenu } from "react-icons/md/mdMenu";
+import { ImCross } from "react-icons/im/imCross";
 import {Link} from 'react-scroll'
 
 

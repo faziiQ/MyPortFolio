@@ -17,6 +17,14 @@ export default defineConfig({
       ]
     }
   },
-})
+   optimizeDeps: {
+    include: ['react-icons/md', 'react-icons/im']
+  },
+   css: {
+    postcss: './postcss.config.js', // If using PostCSS
+    modules: false // Disable if not using CSS modules
+  }
+});
+
 
 
