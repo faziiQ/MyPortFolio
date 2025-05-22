@@ -18,12 +18,13 @@ export default defineConfig({
     }
   },
    optimizeDeps: {
-    include: ['react-icons/md', 'react-icons/im']
+    include: ['react-icons/md', 'react-icons/im','react-hook-form']
   },
    css: {
     postcss: './postcss.config.js', // If using PostCSS
     modules: false // Disable if not using CSS modules
-  }
+  },
+
 });
 
 
